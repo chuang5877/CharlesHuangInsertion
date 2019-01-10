@@ -1,7 +1,7 @@
 package com.company;
 
 public class InsertionSort {
-    public static int[] insertionSort(int[]arr){
+    public static void insertionSort(int[]arr){
         int x,y;
         for (int n=1;n<arr.length;n++){
             x=arr[n];
@@ -12,6 +12,5 @@ public class InsertionSort {
             }
             arr[y+1]=x;
         }
-        return arr;
     }
 }
